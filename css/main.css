@@ -1,0 +1,34 @@
+html{
+    --bgColor:#000000a4;
+    --hgColor:#3E5879;
+    --primary-Color:#D8C4B6;
+    --secundary-Color:#F5EFE7;
+    --textFont: "Oswald", sans-serif;
+    --titlesFont: "Patrick Hand", serif;
+}
+
+
+h1{
+    text-align: center;
+    color:white;
+    font-family: "Oswald";
+    margin-top: 20px;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family: "Oswald";
+    margin-top: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+body{
+background-image: url(../assets/fondo2.png);
+background-repeat: repeat;
+
+}
+
