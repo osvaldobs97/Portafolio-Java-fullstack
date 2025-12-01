@@ -1,5 +1,5 @@
 html{
-    --bgColor:#00000060;
+    --bgColor:#000000a1;
     --hgColor:#3E5879;
     --primary-Color:#D8C4B6;
     --secundary-Color:#F5EFE7;
@@ -21,7 +21,7 @@ html{
 }
 
 .nav-link-custom:hover {
-    color: #0d6efd !important;
+    color: #0d6efd;
 }
 
 .nav-link-custom::after {
@@ -42,9 +42,13 @@ html{
 /* Hero */
 
 #hero{
-    background-color: #000000e7;
+    background-color: #000000a1;
     color: white;
     padding-top: 5px;
+    height: 900px;
+}
+#herotext{
+    font-size: 35px;
 }
 
 .img-yo{
@@ -72,11 +76,41 @@ html{
 #acercade{
     background-color: var(--bgColor);
     color: white;
-    padding-top: 5px;
+    border-radius: 10px;
+    padding: 2%;
 }
 
 #habilidades{
     background-color: var(--bgColor);
     color: white;
     font-family: "Oswald";
+    border-radius: 10px;
+}
+
+/*Timeline*/
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 20px;
+    border-left: 3px solid #0d6efd;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-icon {
+    width: 18px;
+    height: 18px;
+    background: #0d6efd;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+.timeline-content {
+    margin-left: 30px;
+    border-radius: 15px;
 }

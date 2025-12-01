@@ -17,8 +17,8 @@ header.innerHTML = `
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
             <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#hero">Inicio</a></li>
             <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#portafolio">Portafolio</a></li>
-            <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#acercadeMi">Acerca de mí</a></li>
-            <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#seccionCV">CV</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#acerca">Acerca de mí</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#cv">CV</a></li>
             <li class="nav-item"><a class="nav-link nav-link-custom text-white" href="#blog">Blog</a></li>
         </ul>
     </div>

@@ -1,5 +1,5 @@
 html{
-    --bgColor:#000000a4;
+    --bgColor:#000000a1;
     --hgColor:#3E5879;
     --primary-Color:#D8C4B6;
     --secundary-Color:#F5EFE7;
@@ -10,7 +10,7 @@ html{
 
 h1{
     text-align: center;
-    color:white;
+    color:#3686ff; 
     font-family: "Oswald";
     margin-top: 20px;
     font-size: 100px;
@@ -28,7 +28,11 @@ p{
 
 body{
 background-image: url(../assets/fondo2.png);
-background-repeat: repeat;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
 }
 
